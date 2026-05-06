@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Tarefas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Daily Check</div>
+    <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="temperatura.html">Temperatura</a></li>
+        <li><a href="tarefas.html">Tarefas</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+<h2>Nova Tarefa</h2>
+
+<input id="nome" placeholder="Nome">
+<input id="inicio" type="date">
+<input id="fim" type="date">
+<textarea id="descricao" placeholder="Descrição"></textarea>
+
+<button onclick="salvar()">Salvar</button>
+
+<h2>Lista</h2>
+<div id="lista"></div>
+
+</div>
+
+<script src="tarefas.js"></script>
+</body>
+</html>
