@@ -22,7 +22,6 @@ O sistema permite gerenciar tarefas do dia a dia e consultar a temperatura de qu
 
 ### Ferramentas:
 - VS Code
-- Insomnia
 - MySQL
 
 ---
